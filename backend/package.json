@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Two Care Hiring Test.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=server & nodemon .\\server.js"
+  },
+  "author": "Maximo Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "chalk": "2.4.1",
+    "cors": "2.8.4",
+    "debug": "3.1.0",
+    "excel": "1.0.0",
+    "excel2json": "0.3.1",
+    "express": "4.16.3",
+    "http": "0.0.0",
+    "morgan": "1.9.0",
+    "mssql": "4.1.0",
+    "nodemon": "1.18.3",
+    "underscore": "1.9.1",
+    "xlsx": "0.13.3"
+  }
+}
